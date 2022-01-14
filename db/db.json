@@ -1,27 +1,7 @@
 [
     {
-        "title": "My new note",
-        "text": "this is the note text",
-        "id": "eba3af47-6cdf-4666-9a26-8710a6ebdb3f"
-    },
-    {
-        "title": "Here is another one",
-        "text": "blorp blorp blorp",
-        "id": "54974a56-306a-4667-9bd1-f0a284e7677a"
-    },
-    {
-        "title": "beep boop",
-        "text": "test test test test",
-        "id": "ee516348-706c-458a-acea-29c5aec78562"
-    },
-    {
-        "title": "test is cool",
-        "text": "my note test",
-        "id": "e9926974-8cf8-4743-b446-759c7d1dc641"
-    },
-    {
-        "title": "test is cool",
-        "text": "my note test",
-        "id": "4eecd64d-cb61-40a5-93f0-cb594a20e56b"
+        "title": "Get bread",
+        "text": "pick up at store before it snows again",
+        "id": "e457c3de-73b9-4341-930b-86222fa56337"
     }
 ]

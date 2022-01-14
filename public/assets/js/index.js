@@ -1,3 +1,4 @@
+
 let noteTitle;
 let noteText;
 let saveNoteBtn;
@@ -42,13 +43,16 @@ const saveNote = (note) =>
     body: JSON.stringify(note),
   });
 
-const deleteNote = (id) =>
-  fetch(`/api/notes/${id}`, {
+const deleteNote = (id) => {
+  return fetch(`/api/notes/${id}`, {
     method: 'DELETE',
     headers: {
       'Content-Type': 'application/json',
     },
-  });
+  }).then(response => {
+    return response;
+  })
+}
 
 const renderActiveNote = () => {
   hide(saveNoteBtn);
@@ -89,8 +93,8 @@ const handleNoteDelete = (e) => {
     activeNote = {};
   }
 
-  deleteNote(noteId).then(() => {
-    getAndRenderNotes();
+  deleteNote(noteId).then(async data => {
+    renderNoteList(data);
     renderActiveNote();
   });
 };
@@ -159,7 +163,6 @@ const renderNoteList = async (notes) => {
   }
 
   jsonNotes.forEach((note) => {
-    console.log('jsonNotes forEach', note);
     const li = createLi(note.title);
     li.dataset.note = JSON.stringify(note);
 
