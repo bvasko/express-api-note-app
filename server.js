@@ -41,6 +41,16 @@ app.post('/api/notes', (req, res) => {
     });
 });
 
+app.delete('/api/notes/:id', (req, res) => {
+  readFromFile('./db/db.json', 'utf8').then(data => {
+    const parsedData = JSON.parse(data);
+    res.json(parsedData);
+    res.end();
+  });
+});
+
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
 );
+
+module.exports = app;

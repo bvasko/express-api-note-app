@@ -1,15 +1,5 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text",
-        "id": "dsfasf-adsfadsf-asdfasd"
-    },
-    {
-        "title": "Other Test Title",
-        "text": "Other test text",
-        "id": "dsfasf-adsfadsf-asdfasd"
-    },
-    {
         "title": "My new note",
         "text": "this is the note text",
         "id": "eba3af47-6cdf-4666-9a26-8710a6ebdb3f"
@@ -23,5 +13,15 @@
         "title": "beep boop",
         "text": "test test test test",
         "id": "ee516348-706c-458a-acea-29c5aec78562"
+    },
+    {
+        "title": "test is cool",
+        "text": "my note test",
+        "id": "e9926974-8cf8-4743-b446-759c7d1dc641"
+    },
+    {
+        "title": "test is cool",
+        "text": "my note test",
+        "id": "4eecd64d-cb61-40a5-93f0-cb594a20e56b"
     }
 ]
