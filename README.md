@@ -10,6 +10,8 @@
   - [Tests](#tests)
     
 
+# Demo Video
+[Watch demo](./Exxpress-note-taker.mp4)
 # Usage
 Visit https://still-falls-17378.herokuapp.com/notes
 
