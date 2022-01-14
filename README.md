@@ -19,6 +19,10 @@ Visit https://still-falls-17378.herokuapp.com/notes
 # Tests
 ```npm test```
 
+# Heroku Deployment
+
+```git push heroku main```
+
 
 ## Questions?
 Email me at [bvasko@gmail.com](bvasko@gmail.com)
