@@ -13,6 +13,8 @@
 # Usage
 Visit https://still-falls-17378.herokuapp.com/notes
 
+![Screenshot](./screenshot.png)
+
 # License
 [MIT](https://choosealicense.com/licenses/mit/)  ![license](https://img.shields.io/badge/license-MIT-blue)
 
