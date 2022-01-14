@@ -1,6 +1,27 @@
 [
     {
-        "title":"Test Title",
-        "text":"Test text"
+        "title": "Test Title",
+        "text": "Test text",
+        "id": "dsfasf-adsfadsf-asdfasd"
+    },
+    {
+        "title": "Other Test Title",
+        "text": "Other test text",
+        "id": "dsfasf-adsfadsf-asdfasd"
+    },
+    {
+        "title": "My new note",
+        "text": "this is the note text",
+        "id": "eba3af47-6cdf-4666-9a26-8710a6ebdb3f"
+    },
+    {
+        "title": "Here is another one",
+        "text": "blorp blorp blorp",
+        "id": "54974a56-306a-4667-9bd1-f0a284e7677a"
+    },
+    {
+        "title": "beep boop",
+        "text": "test test test test",
+        "id": "ee516348-706c-458a-acea-29c5aec78562"
     }
 ]
